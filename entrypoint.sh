@@ -12,7 +12,7 @@ if [ -n "$DB_HOST" ]; then
     echo "db_host = ${DB_HOST}" >> "$ODOO_RC"
     echo "db_port = ${DB_PORT:-5432}" >> "$ODOO_RC"
     echo "db_user = ${DB_USER}" >> "$ODOO_RC"
-    echo "db_password = ${DB_PASSWORD}" >> "$ODOO_RC"
+    # db_password is passed via command line to avoid issues with special characters (like #) in config file
     
     if [ -n "$DB_NAME" ]; then
         echo "db_name = ${DB_NAME}" >> "$ODOO_RC"
@@ -33,4 +33,8 @@ fi
 mkdir -p /var/lib/odoo
 
 # Proceed with the command provided (e.g., executing Odoo)
-exec "$@"
+if [ -n "$DB_PASSWORD" ]; then
+    exec "$@" -w "${DB_PASSWORD}"
+else
+    exec "$@"
+fi
