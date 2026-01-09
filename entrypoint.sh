@@ -18,8 +18,8 @@ if [ -n "$DB_HOST" ]; then
         echo "db_name = ${DB_NAME}" >> "$ODOO_RC"
     fi
     
-    # Addons path: include the default addons directory
-    echo "addons_path = /app/odoo/addons" >> "$ODOO_RC"
+    # Addons path: include the default addons directory and extra_addons for custom modules
+    echo "addons_path = /app/extra_addons,/app/odoo/addons" >> "$ODOO_RC"
     
     # Set data directory for persistent storage (filestore, sessions)
     echo "data_dir = /var/lib/odoo" >> "$ODOO_RC"
