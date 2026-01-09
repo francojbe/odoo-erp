@@ -1,10 +1,10 @@
 id,name,type,uom_id/id,is_storable
-harina_de_carne,Harina de Carne,consu,uom.product_uom_kgm,True
-ma_z_grano,Maíz Grano,consu,uom.product_uom_kgm,True
-aceite_de_pollo,Aceite de Pollo,consu,uom.product_uom_unit,True
-premix_vitam_nico,Premix Vitamínico,consu,uom.product_uom_kgm,True
-saborizante,Saborizante,consu,uom.product_uom_kgm,True
-agua_de_coco,Agua de Coco,consu,uom.product_uom_unit,True
-dogfood_adulto,DogFood Adulto,consu,uom.product_uom_kgm,True
-catfood_premium,CatFood Premium,consu,uom.product_uom_kgm,True
-arpiste_ave,Arpiste Ave,consu,uom.product_uom_kgm,True
+harina_de_carne_template,Harina de Carne,consu,uom.product_uom_kgm,True
+ma_z_grano_template,Maíz Grano,consu,uom.product_uom_kgm,True
+aceite_de_pollo_template,Aceite de Pollo,consu,uom.product_uom_unit,True
+premix_vitam_nico_template,Premix Vitamínico,consu,uom.product_uom_kgm,True
+saborizante_template,Saborizante,consu,uom.product_uom_kgm,True
+agua_de_coco_template,Agua de Coco,consu,uom.product_uom_unit,True
+dogfood_adulto_template,DogFood Adulto,consu,uom.product_uom_kgm,True
+catfood_premium_template,CatFood Premium,consu,uom.product_uom_kgm,True
+arpiste_ave_template,Arpiste Ave,consu,uom.product_uom_kgm,True
