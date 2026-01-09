@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Odoo
+*.conf
+/odoo.conf
+!odoo.example.conf
+*.log
+.DS_Store
