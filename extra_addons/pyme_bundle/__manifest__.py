@@ -17,6 +17,7 @@
         'crm',
         'stock',
         'purchase',
+        'mrp',
     ],
     'installable': True,
     'application': True,
