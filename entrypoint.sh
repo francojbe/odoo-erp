@@ -34,7 +34,8 @@ mkdir -p /var/lib/odoo
 
 # Proceed with the command provided (e.g., executing Odoo)
 if [ -n "$DB_PASSWORD" ]; then
-    exec "$@" -w "${DB_PASSWORD}"
-else
-    exec "$@"
+    # Odoo/psycopg2 will automatically use this environment variable
+    export PGPASSWORD="${DB_PASSWORD}"
 fi
+
+exec "$@"
