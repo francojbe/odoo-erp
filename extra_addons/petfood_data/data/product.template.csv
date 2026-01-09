@@ -1,0 +1,10 @@
+id,name,type,is_storable,uom_id/id,uom_po_id/id
+dogfood_adulto_template,DogFood Adulto,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+catfood_premium_template,CatFood Premium,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+arpiste_ave_template,Arpiste Ave,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+harina_de_carne_template,Harina de Carne,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+ma_z_grano_template,Maíz Grano,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+aceite_de_pollo_template,Aceite de Pollo,consu,True,uom.product_uom_unit,uom.product_uom_unit
+premix_vitam_nico_template,Premix Vitamínico,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+saborizante_template,Saborizante,consu,True,uom.product_uom_kgm,uom.product_uom_kgm
+agua_de_coco_template,Agua de Coco,consu,True,uom.product_uom_unit,uom.product_uom_unit

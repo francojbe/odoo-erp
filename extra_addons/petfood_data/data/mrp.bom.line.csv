@@ -1,7 +1,7 @@
 bom_id/id,product_id/id,product_qty
-bom_dogfood_adulto,harina_de_carne,0.25
-bom_dogfood_adulto,ma_z_grano,0.6
-bom_catfood_premium,harina_de_carne,0.4
-bom_catfood_premium,aceite_de_pollo,0.05
-bom_arpiste_ave,agua_de_coco,1.0
-bom_arpiste_ave,ma_z_grano,2.0
+bom_dogfood_adulto,harina_de_carne_product,0.25
+bom_dogfood_adulto,ma_z_grano_product,0.6
+bom_catfood_premium,harina_de_carne_product,0.4
+bom_catfood_premium,aceite_de_pollo_product,0.05
+bom_arpiste_ave,agua_de_coco_product,1.0
+bom_arpiste_ave,ma_z_grano_product,2.0
