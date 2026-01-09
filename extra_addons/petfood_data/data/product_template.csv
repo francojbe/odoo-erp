@@ -1,0 +1,10 @@
+id,name,type,uom_id/id,uom_po_id/id
+harina_de_carne,Harina de Carne,product,uom.product_uom_kgm,uom.product_uom_kgm
+ma_z_grano,Maíz Grano,product,uom.product_uom_kgm,uom.product_uom_kgm
+aceite_de_pollo,Aceite de Pollo,product,uom.product_uom_unit,uom.product_uom_unit
+premix_vitam_nico,Premix Vitamínico,product,uom.product_uom_kgm,uom.product_uom_kgm
+saborizante,Saborizante,product,uom.product_uom_kgm,uom.product_uom_kgm
+agua_de_coco,Agua de Coco,product,uom.product_uom_unit,uom.product_uom_unit
+dogfood_adulto,DogFood Adulto,product,uom.product_uom_kgm,uom.product_uom_kgm
+catfood_premium,CatFood Premium,product,uom.product_uom_kgm,uom.product_uom_kgm
+arpiste_ave,Arpiste Ave,product,uom.product_uom_kgm,uom.product_uom_kgm

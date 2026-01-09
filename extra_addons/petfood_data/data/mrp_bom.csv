@@ -1,0 +1,4 @@
+id,product_tmpl_id/id,product_qty,type
+bom_dogfood_adulto,dogfood_adulto,1.0,normal
+bom_catfood_premium,catfood_premium,1.0,normal
+bom_arpiste_ave,arpiste_ave,1.0,normal
