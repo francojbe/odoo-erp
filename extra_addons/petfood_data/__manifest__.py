@@ -5,9 +5,9 @@
     'summary': 'Import data from PetFood Excel',
     'depends': ['mrp', 'stock', 'product'],
     'data': [
-        'data/product_template.csv',
-        'data/mrp_bom.csv',
-        'data/mrp_bom_line.csv',
+        'data/product.template.csv',
+        'data/mrp.bom.csv',
+        'data/mrp.bom.line.csv',
     ],
     'installable': True,
     'application': False,
