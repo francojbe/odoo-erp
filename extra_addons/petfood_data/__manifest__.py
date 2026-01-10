@@ -6,7 +6,7 @@
     'depends': ['mrp', 'stock', 'product'],
     'data': [
         'data/product.template.csv',
-        'data/product.product.csv',
+        'data/product_variant_bindings.xml',
         'data/mrp.bom.csv',
         'data/mrp.bom.line.csv',
     ],
