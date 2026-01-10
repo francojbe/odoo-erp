@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
         <record id="dogfood_adulto_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('dogfood_adulto_template'))]">
             <!-- Architectural Binding -->
         </record>
@@ -28,5 +27,4 @@
         <record id="agua_de_coco_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('agua_de_coco_template'))]">
             <!-- Architectural Binding -->
         </record>
-    </data>
 </odoo>
