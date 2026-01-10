@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record id="dogfood_adulto_product" model="product.product" search="[('product_tmpl_id', '=', ref('dogfood_adulto_template'))]">
-            <field name="active" eval="True"/>
+        <record id="dogfood_adulto_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('dogfood_adulto_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="catfood_premium_product" model="product.product" search="[('product_tmpl_id', '=', ref('catfood_premium_template'))]">
-            <field name="active" eval="True"/>
+        <record id="catfood_premium_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('catfood_premium_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="arpiste_ave_product" model="product.product" search="[('product_tmpl_id', '=', ref('arpiste_ave_template'))]">
-            <field name="active" eval="True"/>
+        <record id="arpiste_ave_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('arpiste_ave_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="harina_de_carne_product" model="product.product" search="[('product_tmpl_id', '=', ref('harina_de_carne_template'))]">
-            <field name="active" eval="True"/>
+        <record id="harina_de_carne_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('harina_de_carne_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="ma_z_grano_product" model="product.product" search="[('product_tmpl_id', '=', ref('ma_z_grano_template'))]">
-            <field name="active" eval="True"/>
+        <record id="ma_z_grano_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('ma_z_grano_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="aceite_de_pollo_product" model="product.product" search="[('product_tmpl_id', '=', ref('aceite_de_pollo_template'))]">
-            <field name="active" eval="True"/>
+        <record id="aceite_de_pollo_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('aceite_de_pollo_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="premix_vitam_nico_product" model="product.product" search="[('product_tmpl_id', '=', ref('premix_vitam_nico_template'))]">
-            <field name="active" eval="True"/>
+        <record id="premix_vitam_nico_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('premix_vitam_nico_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="saborizante_product" model="product.product" search="[('product_tmpl_id', '=', ref('saborizante_template'))]">
-            <field name="active" eval="True"/>
+        <record id="saborizante_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('saborizante_template'))]">
+            <!-- Architectural Binding -->
         </record>
-        <record id="agua_de_coco_product" model="product.product" search="[('product_tmpl_id', '=', ref('agua_de_coco_template'))]">
-            <field name="active" eval="True"/>
+        <record id="agua_de_coco_template_product_product" model="product.product" search="[('product_tmpl_id', '=', ref('agua_de_coco_template'))]">
+            <!-- Architectural Binding -->
         </record>
     </data>
 </odoo>
