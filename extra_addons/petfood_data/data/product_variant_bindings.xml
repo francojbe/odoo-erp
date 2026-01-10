@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="dogfood_adulto_product" model="product.product" search="[('product_tmpl_id', '=', ref('dogfood_adulto_template'))]">
-        <!-- Binding auto-created variant to XML ID dogfood_adulto_product -->
-    </record>
-    <record id="catfood_premium_product" model="product.product" search="[('product_tmpl_id', '=', ref('catfood_premium_template'))]">
-        <!-- Binding auto-created variant to XML ID catfood_premium_product -->
-    </record>
-    <record id="arpiste_ave_product" model="product.product" search="[('product_tmpl_id', '=', ref('arpiste_ave_template'))]">
-        <!-- Binding auto-created variant to XML ID arpiste_ave_product -->
-    </record>
-    <record id="harina_de_carne_product" model="product.product" search="[('product_tmpl_id', '=', ref('harina_de_carne_template'))]">
-        <!-- Binding auto-created variant to XML ID harina_de_carne_product -->
-    </record>
-    <record id="ma_z_grano_product" model="product.product" search="[('product_tmpl_id', '=', ref('ma_z_grano_template'))]">
-        <!-- Binding auto-created variant to XML ID ma_z_grano_product -->
-    </record>
-    <record id="aceite_de_pollo_product" model="product.product" search="[('product_tmpl_id', '=', ref('aceite_de_pollo_template'))]">
-        <!-- Binding auto-created variant to XML ID aceite_de_pollo_product -->
-    </record>
-    <record id="premix_vitam_nico_product" model="product.product" search="[('product_tmpl_id', '=', ref('premix_vitam_nico_template'))]">
-        <!-- Binding auto-created variant to XML ID premix_vitam_nico_product -->
-    </record>
-    <record id="saborizante_product" model="product.product" search="[('product_tmpl_id', '=', ref('saborizante_template'))]">
-        <!-- Binding auto-created variant to XML ID saborizante_product -->
-    </record>
-    <record id="agua_de_coco_product" model="product.product" search="[('product_tmpl_id', '=', ref('agua_de_coco_template'))]">
-        <!-- Binding auto-created variant to XML ID agua_de_coco_product -->
-    </record>
+    <data>
+        <record id="dogfood_adulto_product" model="product.product" search="[('product_tmpl_id', '=', ref('dogfood_adulto_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="catfood_premium_product" model="product.product" search="[('product_tmpl_id', '=', ref('catfood_premium_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="arpiste_ave_product" model="product.product" search="[('product_tmpl_id', '=', ref('arpiste_ave_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="harina_de_carne_product" model="product.product" search="[('product_tmpl_id', '=', ref('harina_de_carne_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="ma_z_grano_product" model="product.product" search="[('product_tmpl_id', '=', ref('ma_z_grano_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="aceite_de_pollo_product" model="product.product" search="[('product_tmpl_id', '=', ref('aceite_de_pollo_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="premix_vitam_nico_product" model="product.product" search="[('product_tmpl_id', '=', ref('premix_vitam_nico_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="saborizante_product" model="product.product" search="[('product_tmpl_id', '=', ref('saborizante_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+        <record id="agua_de_coco_product" model="product.product" search="[('product_tmpl_id', '=', ref('agua_de_coco_template'))]">
+            <field name="active" eval="True"/>
+        </record>
+    </data>
 </odoo>

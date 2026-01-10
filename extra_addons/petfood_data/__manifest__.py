@@ -1,8 +1,8 @@
 {
     'name': 'PetFood Data Import',
     'version': '1.0',
-    'category': 'Custom',
-    'summary': 'Import data from PetFood Excel',
+    'category': 'Manufacturing',
+    'summary': 'Odoo 19.x Certified Data Import for PetFood Manufacturing',
     'depends': ['mrp', 'stock', 'product'],
     'data': [
         'data/product.template.csv',
