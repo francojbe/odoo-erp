@@ -25,8 +25,11 @@ if [ -n "$DB_HOST" ]; then
     echo "data_dir = /var/lib/odoo" >> "$ODOO_RC"
     
     # Listing on 0.0.0.0 is crucial for Docker
-    echo "http_interface = 0.0.0.0" >> "$ODOO_RC"
-    echo "http_port = 8069" >> "$ODOO_RC"
+    echo "xmlrpc_interface = 0.0.0.0" >> "$ODOO_RC"
+    echo "xmlrpc_port = 8069" >> "$ODOO_RC"
+    echo "proxy_mode = True" >> "$ODOO_RC"
+    echo "list_db = False" >> "$ODOO_RC"
+
 fi
 
 # Ensure the data directory exists
