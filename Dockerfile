@@ -22,7 +22,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     xfonts-base \
     fonts-liberation \
     fonts-dejavu-core \
+    locales \
+    && echo "es_CL.UTF-8 UTF-8" > /etc/locale.gen \
+    && locale-gen \
     && rm -rf /var/lib/apt/lists/*
+
+ENV LANG es_CL.UTF-8
+ENV LC_ALL es_CL.UTF-8
+
 
 # Set working directory
 WORKDIR /app
