@@ -17,6 +17,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libfreetype6-dev \
     curl \
     git \
+    wkhtmltopdf \
+    xfonts-75dpi \
+    xfonts-base \
+    fonts-liberation \
+    fonts-dejavu-core \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
